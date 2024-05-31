@@ -17,6 +17,8 @@
   width: 25%;
   background-color: #f4f4f4;
   border: 0.5px solid #ccc;
+  border-radius: 10%;
+
 }
 
 .top-section {
@@ -24,12 +26,15 @@
   padding: 9%;
   background-color: #fff;
   border-bottom: 1px solid #ccc;
+   border-start-start-radius: 10%;
+  border-top-right-radius: 10%;
 }
 
 .bottom-section {
   padding: 1%;
   background-color: #fff;
-  border-bottom: none;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 .image-container {
